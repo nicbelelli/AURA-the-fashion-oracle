@@ -1,0 +1,19 @@
+# --- Python (GitHub template) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Aura specific ---
+.streamlit/secrets.toml
+*.pt
+.DS_Store
