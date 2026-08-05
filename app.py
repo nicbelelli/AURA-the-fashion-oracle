@@ -494,8 +494,7 @@ uploaded_file = st.file_uploader("upload image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     original_image = Image.open(uploaded_file).convert("RGB")
-    st.image(original_image, caption="original photography", use_container_width=True)
-
+    st.image(original_image, caption="original photography", width="stretch")
     st.markdown('<div class="zebra-divider"></div>', unsafe_allow_html=True)
     st.markdown(
         "<h3 style='text-align:center; text-transform:lowercase; letter-spacing: 4px; "
